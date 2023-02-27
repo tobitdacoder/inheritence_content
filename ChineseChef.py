@@ -22,7 +22,8 @@ SO, TO USE INHERITENCE(so that we can use the "chef class in this new "chinese c
 
 '''
 
-from NormalChief import normal_chief 
+from NormalChief import normal_chief  #here we are importing the normal_chief class from the normalChief file
+# so that we can use its content in this new class called "ChineseChef"
 
 class ChineseChef(normal_chief):
 #here we are just saying that every functions "from normal_chief" so that we can use them after imported it
